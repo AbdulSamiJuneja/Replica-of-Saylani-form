@@ -31,7 +31,7 @@ nav {
     background-image: url("./Accets/Smit-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .nav-list {
@@ -52,7 +52,7 @@ nav {
     color: #364153;
     font-size: 1rem;
     list-style-type: none;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .enroll-btn {
@@ -66,7 +66,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .enroll-btn i {
@@ -90,7 +90,11 @@ nav {
     align-items: center;
     gap: 5px;
     color: white;
-    padding-top: 4.5%;
+    padding-top: 1.5%;
+}
+
+.banner-content-line-one i {
+    font-size: 14px;
 }
 
 .banner-section h2 {
@@ -101,7 +105,7 @@ nav {
 
 .banner-section p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 /* main section start */
@@ -114,7 +118,7 @@ main {
 
 .main-first-section {
     border-radius: 15px;
-    margin: 0% auto;
+    margin: 0% auto 5% auto;
     width: 65%;
     display: flex;
     justify-content: center;
@@ -149,4 +153,62 @@ main {
 
 .result:hover {
     background-color: rgb(235, 229, 229);
+}
+
+/* main-section frist input's location & Course Details codding start */
+
+span {
+    color: #0B73B7;
+}
+
+.loc-details-heading {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.loc-details-heading i {
+    color: #0B73B7;
+}
+
+.loc-details-heading h2 {
+    padding-left: 10px;
+}
+
+.main-firstsec-inputs {
+    display: grid;
+    grid-template: repeat(3, 200px)/repeat(2 1fr);
+    gap:20px;
+}
+.main-firstsec-inputs>div>p{
+    font-weight:550;
+    color:#374151;
+}
+.select-input{
+    width:100%;
+    padding: 20px 30px 20px 10px;
+    border-radius: 15px;
+    margin-top:5px;
+    font-size:18px;
+    color:#99a1b1;
+    background-color: #f6f7fa;
+}
+
+.input-country {
+    grid-area: 1/1/2/2;
+}
+
+.input-class-preference {
+    grid-area: 1/2/2/3;
+}
+
+.input-genter{
+    grid-area:2/1/3/2;
+}
+
+.input-city{
+    grid-area:2/2/3/3;
+}
+.input-coures{
+    grid-area:3/1/4/3;
 }
